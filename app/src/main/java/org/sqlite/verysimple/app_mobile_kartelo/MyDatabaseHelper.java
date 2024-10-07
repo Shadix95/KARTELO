@@ -33,7 +33,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                         COLUMN_NOM + " TEXT, " +
                         COLUMN_PAYS + " TEXT, " +
                         COLUMN_CREATION + " INTEGER);";
-        db.execSQL(query);
+        db.execSQL(query);  
     }
 
     @Override
